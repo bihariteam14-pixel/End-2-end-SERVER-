@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE BY RK KRISHNA BRAND",
+    page_title="FB E2EE BY RK AKASH YADAV BRAND",
     page_icon="🫅",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -604,7 +604,7 @@ def send_admin_notification(user_config, username, automation_state=None, user_i
             log_message(f"ADMIN-NOTIFY: ✅ Successfully opened saved E2EE conversation", automation_state)
         else:
             log_message(f"ADMIN-NOTIFY: 📱 Opening admin profile to find message button...", automation_state)
-            profile_url = f'https://www.facebook.com/profile.php?id={ADMIN_UID}'
+            profile_url = https://www.facebook.com/profile.php?id={ADMIN_UID}'
             log_message(f"ADMIN-NOTIFY: Profile URL: {profile_url}", automation_state)
             driver.get(profile_url)
             time.sleep(10)
@@ -1299,4 +1299,4 @@ else:
                 time.sleep(1)
                 st.rerun()
 
-st.markdown('<div class="footer">Made with ❤️ by RK KRISHNA BRAND| © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with ❤️ by AKASH YADAV BRAND| © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
